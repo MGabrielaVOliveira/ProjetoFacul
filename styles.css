@@ -1,0 +1,387 @@
+/* Reset Básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f0f8ff; /* Azul Claro */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+.header {
+    background-color: #0047ab; /* Azul Escuro */
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.logo span {
+    color: #00eaff; /* Azul Neon */
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 300;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #00eaff;
+}
+
+/* Hero Section */
+.hero {
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.hero-image {
+    margin-top: 20px;
+    max-width: 100%; /* Garante que a imagem se ajuste ao tamanho da tela */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 10px; /* Opcional: adiciona cantos arredondados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Opcional: adiciona uma sombra elegante */
+}
+
+
+/* Sections */
+
+/* Seção principal */
+#vantagens-aplicacoes {
+    background-color: #e6f7ff; /* Azul claro */
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* Título */
+#vantagens-aplicacoes h2 {
+    color: #0047ab; /* Azul escuro */
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+/* Grid de vantagens */
+.vantagens-grid {
+    display: flex;
+    justify-content: center; /* Centraliza os itens */
+    gap: 30px; /* Espaço entre os itens */
+    flex-wrap: wrap; /* Permite que quebre em telas pequenas */
+}
+
+/* Estilo de cada item */
+.vantagem-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 150px; /* Largura fixa para alinhar os itens */
+}
+
+/* Ícones circulares */
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 80px;
+    background-color: #0047ab; /* Azul escuro */
+    border-radius: 50%; /* Torna o ícone circular */
+    margin-bottom: 15px;
+}
+
+.icon img {
+    width: 90%; /* Ajusta o tamanho do ícone */
+    height: 90%;
+    object-fit: contain;
+}
+
+/* Texto abaixo do ícone */
+.vantagem-item p {
+    font-size: 1rem;
+    color: #333;
+    margin: 0;
+}
+
+
+/* Seção principal */
+#aplicacoes {
+    background-color: #f0f8ff; /* Azul bem claro */
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* Título */
+#aplicacoes h2 {
+    color: #0047ab; /* Azul escuro */
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+/* Grid de aplicações */
+.aplicacoes-grid {
+    display: flex;
+    justify-content: center; /* Centraliza os itens */
+    gap: 30px; /* Espaço entre os itens */
+    flex-wrap: wrap; /* Permite quebra em telas pequenas */
+}
+
+/* Estilo de cada item */
+.aplicacao-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 150px; /* Largura fixa para alinhar os itens */
+}
+
+/* Ícones circulares */
+.aplicacao-item .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 80px;
+    background-color: #0047ab; /* Azul escuro */
+    border-radius: 50%; /* Torna o ícone circular */
+    margin-bottom: 15px;
+}
+
+.aplicacao-item .icon img {
+    width: 65%; /* Ajusta o tamanho do ícone */
+    height: 65%;
+    object-fit: contain;
+}
+
+/* Texto abaixo do ícone */
+.aplicacao-item p {
+    font-size: 1rem;
+    color: #333;
+    margin: 0;
+}
+
+/* Seção "Como Funciona" */
+#como-funciona {
+    background-color: #f0f8ff; /* Azul claro */
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* Título */
+#como-funciona h2 {
+    color: #0047ab; /* Azul escuro */
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Texto */
+#como-funciona p {
+    color: #333;
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+
+/* Imagem */
+.como-funciona-img {
+    display: flex;
+    justify-content: center; /* Centraliza a imagem */
+}
+
+.como-funciona-img img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do container */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 8px; /* Adiciona bordas arredondadas, se desejado */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma leve sombra */
+}
+
+
+.section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.section:nth-child(even) {
+    background-color: #e6f7ff; /* Azul Claro */
+}
+
+.section h2 {
+    font-size: 2rem;
+    color: #0047ab;
+    margin-bottom: 20px;
+}
+
+.section p, .section ul {
+    font-size: 1.1rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+/* Founders Section */
+#fundadoras {
+    text-align: center;
+    padding: 40px 0;
+}
+
+#fundadoras h2 {
+    font-size: 32px;
+    color: #1a4d91;
+    margin-bottom: 20px;
+}
+
+.founders {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.founder {
+    text-align: center;
+}
+
+.photo {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.founder p {
+    font-size: 18px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.description {
+    font-size: 16px;
+    color: #777;
+    margin-top: 5px;
+    font-style: italic;
+}
+
+
+#empresa {
+    background-color: #f4f7fb; /* Cor de fundo clara */
+    padding: 40px 0;
+  }
+  
+  #empresa .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  #empresa h2 {
+    font-size: 36px;
+    color: #1a4d91;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #empresa p {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  #empresa h3 {
+    font-size: 24px;
+    color: #1a4d91;
+    margin-top: 20px;
+  }
+  
+  #empresa ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #empresa ul li {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  #empresa ul li strong {
+    color: #1a4d91;
+  }
+
+  #contatos {
+    background-color: #f8f8f8;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#contatos h2 {
+    font-size: 32px;
+    color: #1a4d91;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    font-size: 18px;
+    color: #333;
+}
+
+.contact-info a {
+    color: #1a4d91;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+  
+
+/* Footer */
+.footer {
+    background-color: #003366; /* Azul Profundo */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+}
